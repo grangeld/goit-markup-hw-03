@@ -87,9 +87,16 @@ body {
 
 /*******************  Секции  ***********************/
 .section-hero {
-  background-color: rgba(47, 48, 58, 0.8);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../images/jpg/hero.jpg');
+
+  /* background-color: rgba(47, 48, 58, 0.8); */
   padding-top: 200px;
   padding-bottom: 200px;
+
   /* width: 1600px; */
 }
 .hero-h1 {
