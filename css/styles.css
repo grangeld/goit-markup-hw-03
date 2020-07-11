@@ -1,0 +1,212 @@
+:root {
+  --footer-email-telefon: rgba(255, 255, 255, 0.6);
+  --header-email-telefon: #757575;
+  --text-color: #757575;
+  --header-color-logo: #000000;
+  --logo-color-web: #2196f3;
+  --link-changing-color: #2196f3;
+  --text-on-background: #ffffff;
+  --heading-text-color: #212121;
+}
+
+body {
+  letter-spacing: 0.03em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--text-color);
+  background-color: #ffffff;
+}
+
+/*отключаем подчеркивание в ссылках*/
+.underline {
+  text-decoration: none;
+}
+/******************** настройка logo**********************/
+/*logo вверху и внизу*/
+.logo-web {
+  color: var(--logo-color-web);
+}
+
+.logo.footer {
+  color: var(--text-on-background);
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--header-color-logo);
+}
+/*************  header  ******************/
+.header-menu {
+  color: var(--heading-text-color);
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  font-weight: 500;
+}
+
+.header-address {
+  color: var(--header-email-telefon);
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  font-weight: 500;
+}
+
+.header-menu:hover,
+.header-address:hover,
+.header-menu:focus,
+.header-address:focus,
+.header-menu.open {
+  color: var(--link-changing-color);
+}
+
+/*******************  Секции  ***********************/
+.section-hero {
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.hero-h1 {
+  color: var(--text-on-background);
+  letter-spacing: 0.06em;
+  text-align: center;
+  line-height: 1.36;
+  font-size: 44px;
+  font-weight: 900;
+}
+
+/*кнопка в герои*/
+.hero-button {
+  color: var(--text-on-background);
+  text-align: center;
+  letter-spacing: 0.06em;
+  line-height: 1.87;
+  font-size: 16px;
+  font-weight: 700;
+  background: var(--link-changing-color);
+}
+
+/*h2 заголовки в секции*/
+.section-name {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.17;
+  color: var(--heading-text-color);
+}
+
+/*заголовки h3 в секции о нас*/
+
+.aboutus-headers {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: var(--heading-text-color);
+}
+
+/*чем мы занимаемся h3*/
+.work-img {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--text-on-background);
+}
+
+/* список команды */
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--heading-text-color);
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--text-color);
+}
+
+/***************** футер ***************/
+.footer-join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--text-on-background);
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-on-background);
+}
+
+.footer-mail,
+.footer-telefon {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--footer-email-telefon);
+}
+/****************** portfolio.html ******************************/
+/*кнопки*/
+.work-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background-color: #f5f4fa;
+}
+
+.work-button:hover,
+.work-button:focus,
+.active {
+  background-color: var(--link-changing-color);
+  color: var(--text-on-background);
+}
+
+/*настройка заголовков h2*/
+.work-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--heading-text-color);
+}
+.work-description {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-color);
+}
+/*невидимый текст, который будет появляться*/
+.work-invisible {
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--text-on-background);
+}
+
+/*Стилизация списков*/
+.list-style {
+  margin: 0px;
+}
+.list-style > li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+
+/* заголовки которые нужно скрыть*/
+.hide-title {
+  color: rgba(0, 0, 0, 0);
+  font-size: 0em;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+.section-list-name {
+  background-color: #f5f4fa;
+}
