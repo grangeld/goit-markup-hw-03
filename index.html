@@ -15,50 +15,58 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!--Навигация-->
-      <nav>
-        <a class="logo underline" href="./index.html" lang="en"
-          ><span class="logo-web">Web</span> Studio</a
-        >
-        <ul class="list-style">
-          <li>
-            <a class="header-menu open underline" href="./index.html">Студия</a>
-          </li>
-          <li>
-            <a class="header-menu underline" href="./portfolio.html"
-              >Портфолио</a
+      <div class="conteiner">
+        <nav class="navigation">
+          <a class="logo underline" href="./index.html" lang="en"
+            ><span class="logo-web">Web</span> Studio</a
+          >
+          <ul class="list-style navigation-list">
+            <li class="navigation-list-item">
+              <a class="header-menu open underline" href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="header-menu underline" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="header-menu underline" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!--номера для связи-->
+        <ul class="list-style address-navigation">
+          <li class="address-navigation-list">
+            <a class="header-address underline" href="mailto:info@devstudio.com"
+              ><address>info@devstudio.com</address></a
             >
           </li>
-          <li><a class="header-menu underline" href="">Контакты</a></li>
+          <li class="address-navigation-list">
+            <a class="header-address underline" href="tel:+380961111111"
+              ><address>+38 096 111 11 11</address></a
+            >
+          </li>
         </ul>
-      </nav>
-      <!--номера для связи-->
-      <ul class="list-style">
-        <li>
-          <a class="header-address underline" href="mailto:info@devstudio.com"
-            ><address>info@devstudio.com</address></a
-          >
-        </li>
-        <li>
-          <a class="header-address underline" href="tel:+380961111111"
-            ><address>+38 096 111 11 11</address></a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!--Герой-->
       <section class="section-hero">
-        <h1 class="hero-h1">
-          Эффективные решения<br />
-          для вашего бизнеса
-        </h1>
-        <button class="hero-button">Заказать услугу</button>
+        <div class="conteiner">
+          <h1 class="hero-h1">
+            Эффективные решения<br />
+            для вашего бизнеса
+          </h1>
+          <button class="hero-button">Заказать услугу</button>
+        </div>
       </section>
 
       <!--о нас без заголовка-->
-      <section>
+      <section class="section">
         <h2 class="hide-title">О нас</h2>
         <ul class="list-style">
           <li>
@@ -93,7 +101,7 @@
       </section>
 
       <!--Чем мы занимаемся-->
-      <section>
+      <section class="section">
         <h2 class="section-name">Чем мы занимаемся</h2>
         <ul class="list-style">
           <li>
@@ -127,7 +135,7 @@
       </section>
 
       <!--список команды -->
-      <section class="section-list-name">
+      <section class="section-list-name section">
         <h2 class="section-name">Наша команда</h2>
         <ul class="list-style">
           <li>
@@ -278,7 +286,7 @@
       </section>
 
       <!--лого наших клиентов-->
-      <section>
+      <section class="section">
         <h2 class="section-name">Постоянные клиенты</h2>
         <ul class="list-style">
           <li>
