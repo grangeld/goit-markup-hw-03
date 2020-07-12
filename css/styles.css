@@ -184,7 +184,7 @@ ul {
   text-align: center;
   color: var(--text-color);
   margin-top: 0px;
-  margin-bottom: 16px;
+  margin-bottom: 28px;
 }
 
 /***************** футер ***************/
@@ -429,5 +429,5 @@ ul {
 }
 
 .section-list-name .social-network {
-  padding-bottom: 24px;
+  padding-bottom: 36px;
 }
