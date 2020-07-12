@@ -405,6 +405,7 @@ ul {
 }
 .section-list-name .list-style {
   display: flex;
+  /* padding-bottom: 24px; */
 }
 
 .section-list-name .list-style > .list {
@@ -424,19 +425,19 @@ ul {
 
 .section-list-name .list-style-icon {
   display: flex;
+  justify-content: space-around;
 }
 
 .section-list-name .social-network {
-  width: 44px;
-  height: 44px;
-
-  /* justify-content: center; */
+  padding-bottom: 24px;
+  /* width: 44px;
+  height: 44px; */
 }
 .section-list-name .social-network:not(:last-child) {
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .section-list-name .list-style-icon {
-  padding-left: 33px;
-  padding-right: 33px;
+  /* padding-left: 33px; */
+  /* padding-right: 33px; */
 }
