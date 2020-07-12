@@ -431,3 +431,22 @@ ul {
 .section-list-name .social-network {
   padding-bottom: 36px;
 }
+
+/************* секция наши клиенты******************/
+.section-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-customers .list-style {
+  display: flex;
+  justify-content: center;
+}
+
+.section-customers .section-name {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.section-customers .customers-link:not(:last-child) {
+  margin-right: 30px;
+}
