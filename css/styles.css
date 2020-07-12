@@ -53,8 +53,9 @@ ul {
   color: var(--logo-color-web);
 }
 
-.logo.footer {
+.logo-footer.logo {
   color: var(--text-on-background);
+  /* margin-bottom: 200px; */
 }
 
 .logo {
@@ -74,14 +75,16 @@ ul {
   font-weight: 500;
 }
 
-.header-address {
+.header-address address {
 }
 
 .header-menu:hover,
 .header-address:hover,
 .header-menu:focus,
 .header-address:focus,
-.header-menu.open {
+.header-menu.open,
+.header-address > address:focus,
+.header-address > address:hover {
   color: var(--link-changing-color);
 }
 
@@ -102,7 +105,8 @@ ul {
       rgba(47, 48, 58, 0.8)
     ),
     url('../images/jpg/hero.jpg');
-
+  background-repeat: no-repeat;
+  background-position: center;
   /* background-color: rgba(47, 48, 58, 0.8); */
   padding-top: 200px;
   padding-bottom: 200px;
@@ -449,4 +453,29 @@ ul {
 
 .section-customers .customers-link:not(:last-child) {
   margin-right: 30px;
+}
+
+/******************  Футер *********************/
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer .conteiner {
+  display: flex;
+}
+
+.footer .logo-footer-distance {
+  margin-bottom: 20px;
+}
+
+.footer .list-style > li:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-conteiner-adress {
+  margin-right: 60px;
+}
+
+.footer-conteiner-connect {
+  padding-top: 12px;
 }
