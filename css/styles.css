@@ -37,6 +37,12 @@ img {
   display: block;
 }
 
+/* обнуление марджинов*/
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
 /*отключаем подчеркивание в ссылках*/
 .underline {
   text-decoration: none;
@@ -169,12 +175,16 @@ img {
   line-height: 1.19;
   text-align: center;
   color: var(--heading-text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .team-position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   color: var(--text-color);
+  margin-top: 0px;
+  margin-bottom: 16px;
 }
 
 /***************** футер ***************/
@@ -239,9 +249,10 @@ img {
 .list-style {
   margin: 0px;
 }
-.list-style > li {
+/* Убираем маркеры "наша команда" */
+.list-style > li,
+.list-style-icon {
   list-style-type: none;
-  /* Убираем маркеры */
 }
 
 /* заголовки которые нужно скрыть*/
@@ -275,12 +286,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-/* обнуление марджинов*/
-ul {
-  margin: 0px;
-  padding: 0px;
 }
 
 .navigation {
@@ -388,13 +393,50 @@ ul {
   background: rgba(47, 48, 58, 0.8);
   padding-top: 27px;
   padding-bottom: 27px;
-
-  /* position: absolute; */
-  /* top: 200px; */
-  /* left: 0; */
-  min-width: 370px;
-  /* min-height: 70px; */
   position: absolute;
+  min-width: 370px;
   top: 76.3%;
-  /* left: 6%; */
+}
+
+/***************  Список команды  ******************/
+.section-list-name .conteiner {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-list-name .list-style {
+  display: flex;
+}
+
+.section-list-name .list-style > .list {
+  background-color: #ffffff;
+}
+
+.section-list-name .list:not(:last-child) {
+  margin-right: 30px;
+}
+.section-list-name-img {
+  margin-bottom: 30px;
+}
+.section-list-name .section-name {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.section-list-name .list-style-icon {
+  display: flex;
+}
+
+.section-list-name .social-network {
+  width: 44px;
+  height: 44px;
+
+  /* justify-content: center; */
+}
+.section-list-name .social-network:not(:last-child) {
+  margin-right: 10px;
+}
+
+.section-list-name .list-style-icon {
+  padding-left: 33px;
+  padding-right: 33px;
 }
