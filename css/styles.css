@@ -521,3 +521,35 @@ ul {
 .content-portfolio-img .content-portfolio-list:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
+
+.content-portfolio-list-img {
+  /* margin-bottom: 20px; */
+}
+
+.content-portfolio-img .work-name {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.content-portfolio-img .work-description {
+  margin: 0px;
+}
+
+.content-portfolio-list > a {
+  /* display: block; */
+  /* border: 1px solid black; */
+  /* outline: 1px solid #eeeeee; */
+  /* background: #ffffff; */
+  /* border: 1px solid #eeeeee; */
+  /* box-sizing: border-box; */
+}
+
+.portfolio-link-description {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
