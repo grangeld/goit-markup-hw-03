@@ -254,6 +254,7 @@ ul {
   font-size: 18px;
   line-height: 1.55;
   color: var(--text-on-background);
+  display: none;
 }
 
 /*Стилизация списков*/
@@ -491,6 +492,7 @@ ul {
 .section-content-portfolio .container {
   /* display: flex; */
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* h1 в portfolio.html*/
 .section-content-portfolio .section-name {
@@ -498,16 +500,24 @@ ul {
   padding: 0px;
 }
 /*настройка списка в кнопках*/
-.section-content-portfolio .list-style {
+.section-content-portfolio .content-portfolio-ul-button {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
 }
 /*отступ у кнопак*/
-.list-style .content-portfolio-list:not(:last-child) {
+.list-style .content-portfolio-list-batton:not(:last-child) {
   margin-right: 8px;
 }
 
-/*Кнопки */
-.content-portfolio-button {
+.content-portfolio-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-portfolio-img .content-portfolio-list:not(:nth-last-child(3n + 1)) {
+  margin-right: 30px;
+}
+.content-portfolio-img .content-portfolio-list:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
 }
