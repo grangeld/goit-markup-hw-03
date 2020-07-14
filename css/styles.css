@@ -75,7 +75,9 @@ ul {
   line-height: 1.14;
   font-weight: 500;
 }
-
+.header-address > address {
+  font-style: normal;
+}
 .header-address {
   font-family: Roboto;
   font-style: normal;
